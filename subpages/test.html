@@ -1,89 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-    EasyPiece
-    </title>
+  <title>Food Recipe Website</title>
 </head>
-
 <body>
-    <nav>
-    <img class="logo" height="50px" width="50px" style=" line-height: 10px;" src="../assets/images/logo.png">
-    <label class="logo">EasyPiece</label>
+  <header>
+    <h1>Food Recipe Website</h1>
+  </header>
+  <nav>
     <ul>
-    <li>Recipes</li>
-    <li>Store</li>
-    <li>About</li>
+      <li><a href="#breakfast">Breakfast Recipes</a></li>
+      <li><a href="#lunch">Lunch Recipes</a></li>
+      <li><a href="#dinner">Dinner Recipes</a></li>
+      <li><a href="#dessert">Dessert Recipes</a></li>
     </ul>
-    </nav>
-    <article>
-    <center>
-    <h1 style="font-weight:bold;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size:40px;">Blueberry Pancakes</h1>
-    </center>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </article>
+  </nav>
+  <main>
+    <section id="breakfast">
+      <h2>Breakfast Recipes</h2>
+      <article>
+        <h3>Eggs Benedict</h3>
+        <p>Ingredients:</p>
+        <ul>
+          <li>4 eggs</li>
+          <li>4 English muffins</li>
+          <li>4 slices of ham</li>
+          <li>1 batch of Hollandaise sauce</li>
+        </ul>
+        <p>Instructions:</p>
+        <ol>
+          <li>Toast the English muffins until they are golden brown.</li>
+          <li>Meanwhile, heat a pan over medium heat. Place the ham slices in the pan and cook for 1-2 minutes on each side, or until heated through.</li>
+          <li>Fill a saucepan with about 2 inches of water and bring to a simmer. Crack the eggs into individual small bowls. Gently slide the eggs into the water and cook for 3-4 minutes, or until the whites are set and the yolks are cooked to your desired level of doneness.</li>
+          <li>To assemble the Eggs Benedict, place a slice of ham on top of each toasted English muffin. Top each with a poached egg and a spoonful of Hollandaise sauce. Serve immediately.</li>
+        </ol>
+      </article>
+    </section>
+    <section id="lunch">
+      <h2>Lunch Recipes</h2>
+      <!-- Add lunch recipes here -->
+    </section>
+    <section id="dinner">
+      <h2>Dinner Recipes</h2>
+      <!-- Add dinner recipes here -->
+    </section>
+    <section id="dessert">
+      <h2>Dessert Recipes</h2>
+      <!-- Add dessert recipes here -->
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2021 Food Recipe Website</p>
+  </footer>
 </body>
-
-<style>
-    /* Body */
-    *{
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
-    }
-    article{
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        padding-top: 100px;
-        box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
-        width: 70%;
-    }
-    body{
-        background-color: lightgrey;
-        font-family: montserrat;
-    }
-    /* Navigation Bar */
-    nav{
-        position: fixed;
-        background: rgb(141, 0, 0);
-        height: 80px;
-        width: 100%;
-        box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
-        display:flex; 
-    }
-    nav ul{
-        margin-right: 100px;
-        line-height: 80px;
-        color: white;
-        font-size: 20px;
-    }
-    nav ul li{
-        padding-left: 35px;
-        padding-right: 10px;
-        display: inline-block;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    nav ul li:hover{
-        font-size: 21px;
-        cursor: pointer;
-    }
-    img.logo{
-        float: left;
-        margin-left: 15px;
-        margin-top: 15px;
-    }
-    /* ETC */
-    img.logo1{
-        float: left;
-        margin-left: 35%;
-        display: flex;
-    }
-</style>
-
-<script>
-</script>
-
 </html>
