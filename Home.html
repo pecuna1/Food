@@ -1,11 +1,16 @@
+<!--Contents owned by Myech Co. DO NOT COPY-->
 <!DOCTYPE html>
 <html>
+
+<!--Head-->
 <head>
     <title>EasyPiece</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<!--Body-->
 <body>
+    <!--NAVIGATION BAR-->
     <nav>
         <a href="./Home.html"><img class="logo" height="50px" width="50px" style=" line-height: 10px;" src="./assets/images/logo.png"></a>
         <a href="./Home.html"><label class="logo">EasyPiece</label></a>
@@ -16,6 +21,7 @@
         <p style="color:white; line-height: 80px; font-size: 25px; float: right;"> <script>document.write(new Date().toDateString());</script> </p>
         </ul>
         </nav>
+    <!--ARTICLE-->
     <article>
         <img class="logo1" height="80px" width="80px" src="./assets/images/logo.png">
         <h1 class="logo1" style="font-size: 60px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">&nbsp;EasyPiece</h1>
@@ -23,7 +29,26 @@
         <br><br>
         <hr>
         <br><br>
-    <center>
+        <center>
+    <!--Image Slideshow--> 
+        <div class="slider-frame">
+            <div class="slide-images">
+
+                <div class="img-container">
+                    <a href="https://www.google.com"><img style="height: 600px; width: 1200px;" src="https://www.thespruceeats.com/thmb/52ivqqWYcY1TmIVAHrK_JvxjhRQ=/4048x2696/filters:fill(auto,1)/basic-pancakes-3058758-hero-01-5c60cd6846e0fb00017dd2b5.jpg"></a>
+                </div>
+
+                <div class="img-container">
+                    <a href="https://www.google.com"><img style="height: 600px; width: 1200px;" src="https://www.seriouseats.com/thmb/AVdCUACjl50RScwPNVRjVq-Nb4M=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__07__20170728-sunny-side-up-eggs-vicky-wasik-d07c5480d72e49cc85689c1d6d88495e.jpg">
+                </div>      
+
+                <div class="img-container">
+                    <a href="https://www.google.com"><img style="height: 600px; width: 1200px;" src="https://wallsdesk.com/wp-content/uploads/2016/11/Fried-Chicken-Widescreen-.jpg"></a>
+                </div>
+            </div>
+        </div>
+            <br>
+        <!--Quick Links-->
         <ul>
         <a href="./subpages/test.html"><li class="Types">Breakfast</li></a>
         <li class="Types">Lunch</li>
@@ -31,16 +56,13 @@
         <li class="Types">Deserts</li>
         </ul>
         <br><br>
-        <div class="slideshow">
-            <img style="height: 100px; width: 100px;" src="https://www.thespruceeats.com/thmb/52ivqqWYcY1TmIVAHrK_JvxjhRQ=/4048x2696/filters:fill(auto,1)/basic-pancakes-3058758-hero-01-5c60cd6846e0fb00017dd2b5.jpg">
-            <img style="height: 100px; width: 100px;" src="./assets/images/logo.png">
-        </div>
-        <br><br><br><br>
         <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size:50px;"><i>Search Recipes</i></h1>
         <input class="search" type="text" placeholder="Type in a recipe you want to find here..."></input>
-    </center>
+        </center>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </article>
+    
+    <!--End-->
     <footer>
         <center>
             <br>
@@ -50,97 +72,137 @@
     </footer>
 </body>
 
+<!--CSS-->
 <style>
-    /* Body */
-    *{
-        padding: 0;
-        margin: 0;
-        text-decoration: none;
-        list-style: none;
-        box-sizing: border-box;
-    }
+/* Body */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
     
-    article{
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        padding-top: 100px;
-        box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
-        width: 70%;
-    }
-    body{
-        background-color: lightgrey;
-        font-family: montserrat;
-    }
-    /* Navbar */
-    nav{
-        position: fixed;
-        background: rgb(141, 0, 0);
-        height: 80px;
-        width: 100%;
-        box-shadow: 0 5px 4px 0 rgba(0,0,0,.2); 
-    }
-    nav ul{
-        margin-right: 100px;
-        line-height: 80px;
-        color: white;
-        font-size: 20px;
-    }
-    nav ul li{
-        padding-left: 35px;
-        padding-right: 10px;
-        display: inline-block;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    label.logo{
-        float: left;
-        color: white;
-        font-size: 30px;
-        line-height: 80px;
-        padding: 0 15px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    img.logo{
-        float: left;
-        margin-left: 15px;
-        margin-top: 15px;
-    }
-    nav ul li:hover{
-        font-size: 21px;
-        cursor: pointer;
-    }
-    /* ETC */
-    .Types{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        display:inline-block;
-        padding: 0 30px;
-        font-weight: bold;
-        color: black;
-    }
-    .Types:hover{
-        font-size: 21px;
-        cursor:pointer;
-    }
-    img.logo1{
-        float: left;
-        margin-left: 35%;
-        display: flex;
-    }
-    .search{
-        width: 1100px;
-        height: 40px;
-        border: none;
-        background-color: rgb(240, 240, 240);
-    }
-    .slideshow{
-        
-        max-width: 100px;;
-    }
+article{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 100px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
+    width: 70%;
+}
+
+body{
+    background-color: lightgrey;
+    font-family: montserrat;
+}
+
+/*Navbar*/
+nav{
+    position: absolute;
+    background: rgb(141, 0, 0);
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2); 
+}
+
+nav ul{
+    margin-right: 100px;
+    line-height: 80px;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li{
+    padding-left: 35px;
+    padding-right: 10px;
+    display: inline-block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+label.logo{
+    float: left;
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+img.logo{
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+nav ul li:hover{
+    font-size: 21px;
+    cursor: pointer;
+}
+    
+/*ETC*/
+.Types{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    display:inline-block;
+    padding: 0 30px;
+    font-weight: bold;
+    color: black;
+}
+.Types:hover{
+    font-size: 21px;
+    cursor:pointer;
+}
+img.logo1{
+    float: left;
+    margin-left: 35%;
+    display: flex;
+}
+.search{
+    width: 1100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+   
+/*SLIDESHOW*/
+.slider-frame{
+    overflow: hidden;
+    height: 600px;
+    width: 1200px;
+    border: black;
+}
+    
+    /*1SLIDE ANIMATION*/
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left:2400px;}
+    50% {left:2400px;}
+    60% {left:1200px;}
+    70% {left:1200px;}
+    80% {left:0px;}
+    90% {left:0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position:relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    float: left;
+}
 </style>
-
-<script>
-</script>
-
 </html>
