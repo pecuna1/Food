@@ -5,6 +5,8 @@
 <head>
     <title>EasyPiece</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <script src="Script.js"></script>
 </head>
 
 <body>
@@ -19,7 +21,7 @@
         </ul>
     </nav>
 
-    <div ADS>
+    <div hidden>
         <div class="ad" style="float:left; margin-top:100px; margin-left:10px; width:300px; height: 250px; background: #428bca; color: #fff; line-height: 250px; text-align: center; ">
             <img src="https://wpadvancedads.com/wp-content/uploads/2015/08/300x250.png">
         </div>
@@ -54,9 +56,9 @@
     <!--Image Slideshow--> 
         <div class="slider-frame">
             
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
+            <input hidden type="radio" name="radio-btn" id="radio1">
+            <input hidden type="radio" name="radio-btn" id="radio2">
+            <input hidden type="radio" name="radio-btn" id="radio3">
 
             <div class="slide-images">
                 <div class="img-container">
@@ -133,140 +135,4 @@
         </center>
     </footer>
 </body>
-
-<style>
-/* Body */
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-    
-article{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    padding-top: 100px;
-    box-shadow: 0 10px 20px 0 rgba(0,0,0,.2);
-    width: 65%;
-}
-
-body{
-    background-color: lightgrey;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-/*Navbar*/
-nav{
-    position: absolute;
-    background: rgb(110, 22, 40);
-    height: 80px;
-    width: 100%;
-    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2); 
-}
-
-nav ul{
-    margin-right: 100px;
-    line-height: 80px;
-    color: white;
-    font-size: 20px;
-}
-
-nav ul li{
-    padding-left: 35px;
-    padding-right: 10px;
-    display: inline-block;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-    
-label.logo{
-    float: left;
-    color: white;
-    font-size: 30px;
-    line-height: 80px;
-    padding: 0 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-img.logo{
-    float: left;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-nav ul li:hover{
-    font-size: 21px;
-    cursor: pointer;
-}
-    
-/*ETC*/
-img.logo1{
-    display: flex;
-}
-.search{
-    width: 1100px;
-    height: 40px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-}
-   
-/*SLIDESHOW*/
-.slider-frame{
-    overflow: hidden;
-    height: 450px;
-    width: 1100px;
-    border: black;
-    margin: auto;
-    
-}
-    
-    /*1SLIDE ANIMATION*/
-@keyframes slide_animation{
-    0% {right:0px;}
-    10% {right:0px;}
-    20% {right:1200px;}
-    30% {right:1200px;}
-    40% {right:2400px;}
-    50% {right:2400px;}
-    60% {right:1200px;}
-    70% {right:1200px;}
-    80% {right:0px;}
-    90% {right:0px;}
-    100% {right:0px;}
-}
-
-.slide-images{
-    width: 3600px;
-    height: 800px;
-    position: relative;
-    animation-name: slide_animation;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-play-state: running;
-}
-
-.img-container{
-    height: 450px;
-    width: 1200px;
-    float: left;
-    
-}
-
-.img-container-screen{
-    background-color: rgb(240, 240, 240); 
-    width: 300px;
-    height:450px;
-    float: left;
-}
-
-.desc{
-    color:black; 
-    margin-left: 10px; 
-    margin-right: 10px; 
-    font-size:15px;
-}
-
-</style>
 </html>
