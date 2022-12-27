@@ -153,6 +153,7 @@ img.logo1{
     text-decoration: none;
 }
 
+/* Cards */
 .card-frame{
     height: 350px;
     width: 250px;
@@ -183,6 +184,6 @@ img.logo1{
 
 .card-container{
     width: 1100px;
-    height: 800px;
+    height: 780px;
     margin:auto;
 }
